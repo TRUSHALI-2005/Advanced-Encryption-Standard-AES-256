@@ -1,0 +1,65 @@
+Compiling in /home/trushali/Training/SV/testbench/aes_ref
+# Aldec, Inc. Riviera-PRO version 2025.10.126.10025 built for Linux64 on December 12, 2025.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2025 Aldec, Inc. All rights reserved.
+# 30
+# ALIB: Library "work" attached.
+# work = /home/trushali/Training/SV/testbench/aes_ref/work/work.lib
+# AMAP: Adding library mapping "work" to "/home/trushali/Training/SV/testbench/aes_ref/work/work.lib".
+# ALOG: Unit top modules: testbench.
+# ALOG: Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# ALOG: done
+Simulating in /home/trushali/Training/SV/testbench/aes_ref
+# Aldec, Inc. Riviera-PRO version 2025.10.126.10025 built for Linux64 on December 12, 2025.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2025 Aldec, Inc. All rights reserved.
+# 30
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/home/trushali/Aldec/Riviera-PRO-2025.10-x64/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.0 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 75 (98.68%) other processes in SLP
+# SLP: 929 (60.13%) signals in SLP and 67 (4.34%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5714 kB (elbread=468 elab2=5182 kernel=62 sdf=0)
+# KERNEL: ASDB file was created in location /home/trushali/Training/SV/testbench/aes_ref/dataset.asdb
+# KERNEL: RESET CALLED 0
+Scope testbench is already registered
+Scope port_pkg is already registered
+# KERNEL: RESET END 50
+# KERNEL: ---------------------------
+# KERNEL: [GEN | 50] : VALID: 1 PT: 00000000000000000000000000000000 KEY: 0000000000000000000000000000000000000000000000000000000000000000 DONE: 0 CT: 00000000000000000000000000000000
+# KERNEL: ---------------------------
+# KERNEL: [DRI | 50] : VALID: 1 PT: 00000000000000000000000000000000 KEY: 0000000000000000000000000000000000000000000000000000000000000000 DONE: 0 CT: 00000000000000000000000000000000
+# KERNEL: ---------------------------
+# KERNEL: [GEN | 70] : VALID: 0 PT: 00000000000000000000000000000000 KEY: 0000000000000000000000000000000000000000000000000000000000000000 DONE: 0 CT: 00000000000000000000000000000000
+# KERNEL: ---------------------------
+# KERNEL: [DRI | 70] : VALID: 0 PT: 00000000000000000000000000000000 KEY: 0000000000000000000000000000000000000000000000000000000000000000 DONE: 0 CT: 00000000000000000000000000000000
+# KERNEL: ---------------------------
+# KERNEL: [MON | 1190] : VALID: 0 PT: 00000000000000000000000000000000 KEY: 0000000000000000000000000000000000000000000000000000000000000000 DONE: 1 CT: dc95c078a2408989ad48a21492842087
+# KERNEL: #############PASS#############
+# KERNEL: ---------------------------
+# KERNEL: [SCO | 1190] : VALID: 0 PT: 00000000000000000000000000000000 KEY: 0000000000000000000000000000000000000000000000000000000000000000 DONE: 1 CT: dc95c078a2408989ad48a21492842087
+# KERNEL: Info: design_tb.sv (26): WAIT DONE 1190
+# RUNTIME: Info: RUNTIME_0068 design_tb.sv (28): $finish called.
+# KERNEL: Time: 1210 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#20_0@.
+# KERNEL: stopped at time: 1210 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
